@@ -47,7 +47,7 @@ Note that integers representing indexes (like the current turn we're on) will be
 
 The bird power object breaks down all information about a bird power so that clients don't need to parse power text and hard code all powers. If they can parse and understand the power rules, they can understand the powers for all birds.
 
-```json
+```ruby
 {
   # todo
 }
@@ -57,7 +57,7 @@ The bird power object breaks down all information about a bird power so that cli
 
 The card object represents a single bird card, and the different traits of the card.
 
-```json
+```ruby
 {
     birdId: 0,                      # A unique ID for the bird.
     name: "Acorn Woodpecker",        # The english name of the bird
@@ -119,7 +119,7 @@ The card object represents a single bird card, and the different traits of the c
 
 The bonus card object represents one bonus card.
 
-```json
+```ruby
 {
     id: 0,
     name: "Anatomist",
@@ -144,7 +144,7 @@ The bonus card object represents one bonus card.
 
 A card slot object represents a single slot where a card can be placed on a players board. A card slot can have a card, tucked cards, and eggs.
 
-```json
+```ruby
 {
     card: {Bird Card},                # Can be null
     eggs: 0,
@@ -158,7 +158,7 @@ A card slot object represents a single slot where a card can be placed on a play
 
 The habitat object represents one habitat on one players board. It tracks the card slots and stored nectar.
 
-```json
+```ruby
 {
     cardSlots: [                  # Exactly 5 card slots unless it's the "play bird" habitat.
         {Card Slot},
@@ -173,7 +173,7 @@ The habitat object represents one habitat on one players board. It tracks the ca
 
 The Board object represents one players board. All information on the board is visible to all players.
 
-```json
+```ruby
 {
     forest: {Habitat},
     grasslands: {Habitat},
@@ -186,7 +186,7 @@ The Board object represents one players board. All information on the board is v
 
 The player object represents one player. A player has a board, cards in hand, bonus cards, and different food resources.
 
-```json
+```ruby
 {
     board: {Board},
     birdCards: [             # [] if viewing from the perspective of another player.
@@ -213,7 +213,7 @@ The player object represents one player. A player has a board, cards in hand, bo
 
 The round end goal represents a round end goal. The object stores enough information that clients don't need a full understanding of all round end goals, they can just parse the round end goal object.
 
-```json
+```ruby
 {
     ...
 }
@@ -225,7 +225,7 @@ The game state object represents the entirety of the game state, including every
 
 Note that the board state payload sent to a specific player will never include cards in other player's hands.
 
-```json
+```ruby
 {
     game_id: "string",        # Unique string representing the current game.
     round: 0,                 # Round number, from 0 to 3 inclusive
