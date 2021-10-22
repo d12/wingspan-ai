@@ -6,7 +6,7 @@ require "json"
 require "byebug"
 require 'active_support/core_ext/string'
 
-csv = CSV.read("data/all_birds.csv", headers: true)
+csv = CSV.read(File.join(File.dirname(__FILE__), "../data/all_birds.csv"), headers: true)
 
 # Include 50 birds for now.
 bird_rows = csv.select {|b| b["Expansion Version"] == "originalcore"}.first(50)
@@ -23,8 +23,6 @@ end
 bird_hash = bird_rows.map do |bird_row|
   bird_row_to_hash(bird_row)
 end
-
-byebug
 
 # Transform all keys to be camelcased
 File.write(File.join(File.dirname(__FILE__), "../data/birds.json"), JSON.pretty_generate(bird_hash))
