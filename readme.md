@@ -39,6 +39,25 @@ As disussed earlier, there are many ways to handle interfacing with the engine. 
 - The engine will disallow invalid moves, and may include a timeout. AIs that make invalid moves or timeout should be removed from the game.
 - The engine will send game end messages indicating final scores and final board state.
 
+## Gradual Implementation
+
+Trying to design this whole thing all at once is going to be difficult since there are so many moving parts. This is roughly how I'm planning on archiecting the engine:
+
+1. Build a small database of birds. The first birds will be the high point birds with no powers. There are existing databases online that I plan to draw from.
+2. Build out some base classes and their relationships, including valid and invalid state changes. (You cannot pull a rodent from a birdfeeder with no rodent, you can't play a bird in the far right tile without anything to the left of it, etc.)
+  - Birds
+  - Birdfeeder
+  - Player boards
+  - Players
+3. Start tying the pieces together into a functional game with basic birds, no bonus cards, no round end goals, and no webhook system. Commands can be sent in a console and it'll reject invalid moves.
+4. Begin adding the more complex pieces.
+  - Bird powers
+  - Bonus cards
+  - Round end goals
+  - Nectar points
+5. Build out the webhook system
+6. Build an AI harness and begin developing AIs.
+
 ## API Payloads
 
 Note that integers representing indexes (like the current turn we're on) will be zero-indexed.
