@@ -49,10 +49,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 0
   },
   {
-    "commonName": "American Avocet ",
+    "commonName": "American Avocet",
     "scientificName": "Recurvirostra americana",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -101,10 +102,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 1
   },
   {
-    "commonName": "American Bittern ",
+    "commonName": "American Bittern",
     "scientificName": "Botaurus lentiginosus",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -153,7 +155,8 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 2
   },
   {
     "commonName": "American Coot",
@@ -205,10 +208,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 3
   },
   {
-    "commonName": "American Crow ",
+    "commonName": "American Crow",
     "scientificName": "Corvus brachyrhynchos",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -257,10 +261,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 4
   },
   {
-    "commonName": "American Goldfinch ",
+    "commonName": "American Goldfinch",
     "scientificName": "Spinus tristis",
     "expansionVersion": "originalcore",
     "color": "White",
@@ -309,10 +314,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 5
   },
   {
-    "commonName": "American Kestrel ",
+    "commonName": "American Kestrel",
     "scientificName": "Falco sparverius",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -361,7 +367,8 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 6
   },
   {
     "commonName": "American Oystercatcher",
@@ -413,7 +420,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 7
   },
   {
     "commonName": "American Robin",
@@ -465,10 +473,11 @@
     "rodentologist": null,
     "viticulturalist": "X",
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 8
   },
   {
-    "commonName": "American White Pelican ",
+    "commonName": "American White Pelican",
     "scientificName": "Pelecanus erythrorhynchos",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -517,7 +526,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 9
   },
   {
     "commonName": "American Woodcock",
@@ -569,7 +579,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 10
   },
   {
     "commonName": "Anhinga",
@@ -621,10 +632,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 11
   },
   {
-    "commonName": "Anna's Hummingbird ",
+    "commonName": "Anna's Hummingbird",
     "scientificName": "Calypte anna",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -673,10 +685,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 12
   },
   {
-    "commonName": "Ash-Throated Flycatcher ",
+    "commonName": "Ash-Throated Flycatcher",
     "scientificName": "Myiarchus cinerascens",
     "expansionVersion": "originalcore",
     "color": "White",
@@ -725,7 +738,8 @@
     "rodentologist": null,
     "viticulturalist": "X",
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 13
   },
   {
     "commonName": "Atlantic Puffin",
@@ -777,10 +791,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 14
   },
   {
-    "commonName": "Baird's Sparrow ",
+    "commonName": "Baird's Sparrow",
     "scientificName": "Ammodramus bairdii",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -829,10 +844,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 15
   },
   {
-    "commonName": "Bald Eagle ",
+    "commonName": "Bald Eagle",
     "scientificName": "Haliaeetus leucocephalus",
     "expansionVersion": "originalcore",
     "color": "White",
@@ -881,10 +897,11 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 16
   },
   {
-    "commonName": "Baltimore Oriole ",
+    "commonName": "Baltimore Oriole",
     "scientificName": "Icterus galbula",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -933,7 +950,8 @@
     "rodentologist": null,
     "viticulturalist": "X",
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 17
   },
   {
     "commonName": "Barn Owl",
@@ -985,7 +1003,8 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 18
   },
   {
     "commonName": "Barn Swallow",
@@ -1037,7 +1056,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 19
   },
   {
     "commonName": "Barred Owl",
@@ -1089,10 +1109,11 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 20
   },
   {
-    "commonName": "Barrow's Goldeneye ",
+    "commonName": "Barrow's Goldeneye",
     "scientificName": "Bucephala islandica",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -1141,7 +1162,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 21
   },
   {
     "commonName": "Bell's Vireo",
@@ -1193,10 +1215,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 22
   },
   {
-    "commonName": "Belted Kingfisher ",
+    "commonName": "Belted Kingfisher",
     "scientificName": "Megaceryle alcyon",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -1245,7 +1268,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 23
   },
   {
     "commonName": "Bewick's Wren",
@@ -1297,10 +1321,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 24
   },
   {
-    "commonName": "Black Skimmer ",
+    "commonName": "Black Skimmer",
     "scientificName": "Rynchops niger",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -1349,7 +1374,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 25
   },
   {
     "commonName": "Black Tern",
@@ -1401,10 +1427,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 26
   },
   {
-    "commonName": "Black Vulture ",
+    "commonName": "Black Vulture",
     "scientificName": "Coragyps atratus",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -1453,7 +1480,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 27
   },
   {
     "commonName": "Black-Bellied Whistling Duck",
@@ -1505,10 +1533,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 28
   },
   {
-    "commonName": "Black-Billed Magpie ",
+    "commonName": "Black-Billed Magpie",
     "scientificName": "Pica hudsonia",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -1557,10 +1586,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 29
   },
   {
-    "commonName": "Black-Crowned Night-Heron ",
+    "commonName": "Black-Crowned Night-Heron",
     "scientificName": "Nycticorax nycticorax",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -1609,10 +1639,11 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 30
   },
   {
-    "commonName": "Black-Necked Stilt ",
+    "commonName": "Black-Necked Stilt",
     "scientificName": "Himantopus mexicanus",
     "expansionVersion": "originalcore",
     "color": "White",
@@ -1661,7 +1692,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 31
   },
   {
     "commonName": "Blue Grosbeak",
@@ -1713,7 +1745,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 32
   },
   {
     "commonName": "Blue Jay",
@@ -1765,10 +1798,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 33
   },
   {
-    "commonName": "Blue-Gray Gnatcatcher ",
+    "commonName": "Blue-Gray Gnatcatcher",
     "scientificName": "Polioptila caerulea",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -1817,7 +1851,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 34
   },
   {
     "commonName": "Blue-Winged Warbler",
@@ -1869,7 +1904,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 35
   },
   {
     "commonName": "Bobolink",
@@ -1921,10 +1957,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 36
   },
   {
-    "commonName": "Brewer's Blackbird ",
+    "commonName": "Brewer's Blackbird",
     "scientificName": "Euphagus cyanocephalus",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -1973,10 +2010,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 37
   },
   {
-    "commonName": "Bronzed Cowbird ",
+    "commonName": "Bronzed Cowbird",
     "scientificName": "Molothrus aeneus",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -2025,7 +2063,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 38
   },
   {
     "commonName": "Brown Pelican",
@@ -2077,10 +2116,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": "X",
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 39
   },
   {
-    "commonName": "Brown-Headed Cowbird ",
+    "commonName": "Brown-Headed Cowbird",
     "scientificName": "Molothrus ater",
     "expansionVersion": "originalcore",
     "color": "Pink",
@@ -2129,10 +2169,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 40
   },
   {
-    "commonName": "Burrowing Owl ",
+    "commonName": "Burrowing Owl",
     "scientificName": "Athene cunicularia",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -2181,7 +2222,8 @@
     "rodentologist": "X",
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 41
   },
   {
     "commonName": "Bushtit",
@@ -2233,7 +2275,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 42
   },
   {
     "commonName": "California Condor",
@@ -2285,10 +2328,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 43
   },
   {
-    "commonName": "California Quail ",
+    "commonName": "California Quail",
     "scientificName": "Callipepla californica",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -2337,10 +2381,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 44
   },
   {
-    "commonName": "Canada Goose ",
+    "commonName": "Canada Goose",
     "scientificName": "Branta canadensis",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -2389,10 +2434,11 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 45
   },
   {
-    "commonName": "Carolina Chickadee ",
+    "commonName": "Carolina Chickadee",
     "scientificName": "Poecile carolinensis",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -2441,7 +2487,8 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 46
   },
   {
     "commonName": "Carolina Wren",
@@ -2493,7 +2540,8 @@
     "rodentologist": null,
     "viticulturalist": "X",
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 47
   },
   {
     "commonName": "Cassin's Finch",
@@ -2545,10 +2593,11 @@
     "rodentologist": null,
     "viticulturalist": "X",
     "wetlandScientist": null,
-    "wildlifeGardener": "X"
+    "wildlifeGardener": "X",
+    "id": 48
   },
   {
-    "commonName": "Cassin's Sparrow ",
+    "commonName": "Cassin's Sparrow",
     "scientificName": "Peucaea cassinii",
     "expansionVersion": "originalcore",
     "color": "Brown",
@@ -2597,6 +2646,7 @@
     "rodentologist": null,
     "viticulturalist": null,
     "wetlandScientist": null,
-    "wildlifeGardener": null
+    "wildlifeGardener": null,
+    "id": 49
   }
 ]

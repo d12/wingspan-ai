@@ -17,11 +17,18 @@ def bird_row_to_hash(bird)
   # Camelcase all keys
   hash.transform_keys! { |key| key.gsub(" ","").camelcase(:lower)}
 
+  # Remove trailing and leading spaces in values
+  hash.transform_values! { |value| value.is_a?(String) ? value.strip : value }
+
   hash
 end
 
 bird_hash = bird_rows.map do |bird_row|
   bird_row_to_hash(bird_row)
+end
+
+bird_hash.each_with_index do |h, i|
+  h[:id] = i
 end
 
 # Transform all keys to be camelcased
