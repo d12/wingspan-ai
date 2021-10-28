@@ -1,7 +1,7 @@
 require_relative "../importers/bird_importer"
 
 class Bird
-  attr_reader :bird_id, :name, :expansion, :cost, :habitat, :color,
+  attr_reader :id, :name, :expansion, :cost, :habitat, :color,
               :power_text, :power, :predator, :flocking, :nest,
               :victory_points, :egg_capacity, :wingspan,
               :bonus_card_eligibility

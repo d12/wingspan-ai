@@ -18,7 +18,7 @@ class BirdImporter < JSONImporter
 
     def hash_to_bird_obj(hash)
       Bird.new(
-        bird_id: hash["id"],
+        id: hash["id"],
         name: hash["commonName"],
         expansion: hash["expansionVersion"],
         cost: hash_to_cost_obj(hash),
