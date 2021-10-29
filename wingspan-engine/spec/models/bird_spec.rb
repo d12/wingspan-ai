@@ -45,5 +45,10 @@ describe Bird do
       expect(bird.id).to eq(6)
       expect(bird.name).to eq("American Kestrel")
     end
+
+    it "returns null if an invalid ID is passed" do
+      expect(Bird.get_bird(-1)).to be_nil
+      expect(Bird.get_bird("foo")).to be_nil
+    end
   end
 end
