@@ -6,8 +6,6 @@ class BirdImporter < JSONImporter
 
   class << self
     def import(bird_id)
-      puts "Importing bird id #{bird_id}"
-
       bird_json = raw_data.find{ |bird| bird["id"] == bird_id }
       return unless bird_json
 
